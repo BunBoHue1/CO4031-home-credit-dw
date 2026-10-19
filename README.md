@@ -2,25 +2,32 @@
 
 PostgreSQL local, Python ETL, Express JavaScript và React. Không Docker hoặc Power BI. Baseline đã chốt: 5 dimension + 4 fact trong [schema_doc.md](schema_doc.md).
 
+Repository: [BunBoHue1/CO4031-home-credit-dw](https://github.com/BunBoHue1/CO4031-home-credit-dw).
+
 ## Bắt đầu
 
 Hiện chỉ có tài liệu và placeholder; chưa có ứng dụng, CLI, DDL hoặc dependency.
 
-1. Clone bằng URL Kiên cung cấp, mở PowerShell tại root.
+1. Clone repository và mở PowerShell tại root theo lệnh bên dưới.
 2. Đọc [dataset guide](dataset_guide.md), [schema](schema_doc.md), [TASKS](TASKS.md), [CONTRIBUTING](CONTRIBUTING.md), [AGENTS](AGENTS.md).
 3. Nhận task, đọc README/AGENTS phần liên quan, tạo branch và gửi PR.
 4. Chuẩn bị dữ liệu theo [data README](data/README.md) và môi trường theo [ETL README](src/etl/README.md).
 
+```powershell
+git clone https://github.com/BunBoHue1/CO4031-home-credit-dw.git
+cd CO4031-home-credit-dw
+```
+
 ## Cấu trúc và phân công
 
-| Phần | Phụ trách |
-|---|---|
-| src/db: staging, warehouse, OLAP/reporting; docs/business: nghiệp vụ/KPI | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) |
-| src/etl: Python pipeline, CLI và kiểm chứng dữ liệu | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) |
-| src/be: Express; src/fe: React, DSS | [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
-| tests: SQL/data checks và tích hợp | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) và [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
-| docs/report, docs/slides, hợp đồng reporting, review và trình bày | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) và [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
-| Đánh giá, đóng gói, nộp | [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
+| Phần                                                                     | Phụ trách                                                                                            |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+| src/db: staging, warehouse, OLAP/reporting; docs/business: nghiệp vụ/KPI | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc)                                                      |
+| src/etl: Python pipeline, CLI và kiểm chứng dữ liệu                      | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc)                                                      |
+| src/be: Express; src/fe: React, DSS                                      | [Kiên (@BunBoHue1)](https://github.com/BunBoHue1)                                                    |
+| tests: SQL/data checks và tích hợp                                       | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) và [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
+| docs/report, docs/slides, hợp đồng reporting, review và trình bày        | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) và [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
+| Đánh giá, đóng gói, nộp                                                  | [Kiên (@BunBoHue1)](https://github.com/BunBoHue1)                                                    |
 
 ## Setup và vận hành
 

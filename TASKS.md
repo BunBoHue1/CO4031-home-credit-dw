@@ -29,13 +29,16 @@ Tài khoản thành viên: [Kiên (@BunBoHue1)](https://github.com/BunBoHue1), [
 
 ### GIT-01 — Xuất bản GitHub
 
-- Owner: Kiên. Trạng thái: BLOCKED. Phụ thuộc: INIT-01.
+- Owner: Kiên. Trạng thái: IN_PROGRESS. Phụ thuộc: INIT-01.
 - Đọc: CONTRIBUTING, README.
-- Repo dự kiến theo URL Kiên cung cấp: https://github.com/BunBoHue1/CO4031-home-credit-dw; owner: [Kiên (@BunBoHue1)](https://github.com/BunBoHue1).
-- Blocker: chưa xác nhận public/private, push thành công và lời mời [Phúc (@nhpucpuc)](https://github.com/nhpucpuc).
-- Đầu ra: repo trống được tạo, origin, main upstream, mời Phúc, review PR/main khi hỗ trợ.
+- Repository: [BunBoHue1/CO4031-home-credit-dw](https://github.com/BunBoHue1/CO4031-home-credit-dw); owner: [Kiên (@BunBoHue1)](https://github.com/BunBoHue1).
+- Đã có: remote origin đúng URL, main theo dõi origin/main; trạng thái local ghi nhận hai nhánh cùng commit 69c53b6 (Update account name).
+- Visibility: public, theo xác nhận của Kiên.
+- Collaborator: [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) đã nhận được lời mời, theo xác nhận của Kiên; chưa xác nhận đã chấp nhận lời mời.
+- Còn lại: Phúc chấp nhận lời mời và kiểm tra quyền push branch/tạo PR; kiểm tra clone sạch, cấu hình review PR/main khi tài khoản hỗ trợ. Repo public cho phép clone nhưng không tự cấp quyền push.
+- Đầu ra: repository GitHub, origin/main upstream, Phúc có quyền đóng góp và quy trình PR hoạt động.
 - Verify: remote đúng, không secrets/dataset; clone sạch đọc đủ tài liệu, Phúc có quyền contribute.
-- Bằng chứng/PR: chưa có. Không giả định đã publish hoặc mời thành viên.
+- Bằng chứng: Kiên cung cấp link repo, xác nhận repo public và Phúc đã nhận được lời mời; git remote -v và git branch -vv xác nhận cấu hình remote/upstream local trong lần kiểm tra trước. Chưa kiểm tra quyền collaborator qua mạng; chỉ DONE sau khi xác nhận các mục còn lại.
 
 ### ENV-01 — Python ETL và PostgreSQL local
 
