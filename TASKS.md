@@ -6,6 +6,8 @@ Nguồn tiến độ chính. Trạng thái: TODO, IN_PROGRESS, BLOCKED, DONE. BL
 
 ## Roadmap
 
+Tài khoản thành viên: [Kiên (@BunBoHue1)](https://github.com/BunBoHue1), [Phúc (@nhpucpuc)](https://github.com/nhpucpuc). Tên owner trong các task bên dưới tương ứng các tài khoản này.
+
 | Mốc nội bộ | Kết quả |
 |---|---|
 | 19–21/10/2026 | Repo, onboarding, nghiệp vụ/KPI, phân công |
@@ -29,7 +31,8 @@ Nguồn tiến độ chính. Trạng thái: TODO, IN_PROGRESS, BLOCKED, DONE. BL
 
 - Owner: Kiên. Trạng thái: BLOCKED. Phụ thuộc: INIT-01.
 - Đọc: CONTRIBUTING, README.
-- Blocker: cần tên repo, owner, public/private và tài khoản Phúc.
+- Repo dự kiến theo URL Kiên cung cấp: https://github.com/BunBoHue1/CO4031-home-credit-dw; owner: [Kiên (@BunBoHue1)](https://github.com/BunBoHue1).
+- Blocker: chưa xác nhận public/private, push thành công và lời mời [Phúc (@nhpucpuc)](https://github.com/nhpucpuc).
 - Đầu ra: repo trống được tạo, origin, main upstream, mời Phúc, review PR/main khi hỗ trợ.
 - Verify: remote đúng, không secrets/dataset; clone sạch đọc đủ tài liệu, Phúc có quyền contribute.
 - Bằng chứng/PR: chưa có. Không giả định đã publish hoặc mời thành viên.
@@ -48,7 +51,7 @@ Nguồn tiến độ chính. Trạng thái: TODO, IN_PROGRESS, BLOCKED, DONE. BL
 - Đọc: data/README, dataset_guide, schema.
 - Đầu ra: command tải kiểm chứng, bố trí nguồn, checksum/số dòng, sample nhất quán quan hệ và cách tái tạo.
 - Verify: đủ file/đúng đường dẫn; sample ID/lịch sử liên kết đúng, raw CSV/token không staged; ghi giới hạn sample.
-- Bằng chứng/PR: chưa có; command Kaggle đang chờ Kiên.
+- Bằng chứng/PR: Kiên đã cung cấp kagglehub.dataset_download("megancrenshaw/home-credit-default-risk"); data/README có cài đặt, tải cache, copy đúng layout và kiểm tra. Chưa tải mạng/đối soát phiên bản nguồn; sample, checksum và kiểm chứng DATA-01 còn TODO.
 
 ## Nghiệp vụ đến OLAP — Phúc
 

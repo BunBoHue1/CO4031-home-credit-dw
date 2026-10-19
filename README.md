@@ -15,12 +15,12 @@ Hiện chỉ có tài liệu và placeholder; chưa có ứng dụng, CLI, DDL h
 
 | Phần | Phụ trách |
 |---|---|
-| src/db: staging, warehouse, OLAP/reporting; docs/business: nghiệp vụ/KPI | Phúc |
-| src/etl: Python pipeline, CLI và kiểm chứng dữ liệu | Phúc |
-| src/be: Express; src/fe: React, DSS | Kiên |
-| tests: SQL/data checks và tích hợp | Phúc và Kiên |
-| docs/report, docs/slides, hợp đồng reporting, review và trình bày | Phúc và Kiên |
-| Đánh giá, đóng gói, nộp | Kiên |
+| src/db: staging, warehouse, OLAP/reporting; docs/business: nghiệp vụ/KPI | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) |
+| src/etl: Python pipeline, CLI và kiểm chứng dữ liệu | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) |
+| src/be: Express; src/fe: React, DSS | [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
+| tests: SQL/data checks và tích hợp | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) và [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
+| docs/report, docs/slides, hợp đồng reporting, review và trình bày | [Phúc (@nhpucpuc)](https://github.com/nhpucpuc) và [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
+| Đánh giá, đóng gói, nộp | [Kiên (@BunBoHue1)](https://github.com/BunBoHue1) |
 
 ## Setup và vận hành
 
