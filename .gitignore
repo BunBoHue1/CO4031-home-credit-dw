@@ -1,0 +1,49 @@
+# Large raw datasets are managed locally.
+data_set/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+.aws/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated files
+*.log
+.DS_Store
+Thumbs.db
+
+# Node and generated outputs
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.ruff_cache/
+.mypy_cache/
+output/
+outputs/
+artifacts/
+
+# Local database files and dumps
+pgdata/
+*.dump
+*.backup
+
+# Downloaded archives and Kaggle credentials
+*.zip
+*.7z
+*.tar
+*.gz
+kaggle.json
+
+# Generated samples/manifests: add reviewed small samples explicitly
+/data/**/*.csv
+/data/**/*.parquet
+/data/**/*.jsonl
